@@ -7,7 +7,32 @@
     <title>Porcentajes y Descuentos | Curso Practico JS</title>
 </head>
 <body>
-    <h1>Porcentajes y Descuentos</h1>
+    <header>
+        <h1>Porcentajes y Descuentos</h1>
+        <p>Este es el segundo taller del curso practico de JS</p>
+    </header>
+
+    <section>
+        <h2>
+            Calcula el precio a pagar de tus productos con descuentos
+        </h2>
+
+        <form>
+            <label for="inputPrice">Escribe el precio de tu producto</label>
+            <input id="inputPrice" type="number" placeholder="Precio"></input>
+
+            <label for="inputDisccount">Escribe el descuento de tu producto</label>
+            <input id="inputDisccount" type="number" placeholder="Descuento"></input>
+
+            <button type="button" onclick="calcularDescuentoPrecio()">
+                Calcular el precio con descuento  
+            </button>
+
+            <p id="resultPrice"></p>
+        </form>
+
+    </section>
+    
     <script src="./descuentos.js"></script>
 </body>
 </html>
