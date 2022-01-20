@@ -1,7 +1,7 @@
 // Programa para el calculo de perimetro y area de funciones geometricas
 
 // Codigo del Cuadrado
-console.group("Cuadrados");
+// console.group("Cuadrados");
 // const ladoCuadrado = 5;
 // console.log("Los lados del cuadrado miden: " + ladoCuadrado + "cm");
 
@@ -14,10 +14,10 @@ function areaCuadrado(ladoCuadrado) {
     return ladoCuadrado * ladoCuadrado;
 }
 // console.log("El area del cuadrado es: " + areaCuadrado + "cm^2");
-console.groupEnd();
+// console.groupEnd();
 
 // Codigo del triangulo
-console.group("Triangulos");
+// console.group("Triangulos");
 // const ladoTriangulo1 = 6;
 // const ladoTriangulo2 = 6;
 // const baseTriangulo = 4;
@@ -44,10 +44,10 @@ function areaTriangulo(baseTriangulo, alturatrinagulo) {
     return (baseTriangulo * alturatrinagulo)/2;
 } 
 // console.log("El area del triangulo es: " + areaTrinagulo + "cm^2");
-console.groupEnd();
+// console.groupEnd();
 
 // Codigo del circulo
-console.group("Circulos");
+// console.group("Circulos");
 // const radioCirculo = 4;
 // console.log("El radio del circulo es: " + radioCirculo + "cm");
 // const diametroCirculo = radioCirculo * 2;
@@ -69,4 +69,4 @@ function areaCirculo(radioCirculo) {
     return (radioCirculo * radioCirculo) * PI;
 } 
 // console.log("El area del circulo es: " + areaCirculo + "cm^2");
-console.groupEnd();
+// console.groupEnd();
